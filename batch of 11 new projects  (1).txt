@@ -1,0 +1,2596 @@
+﻿1.name
+DEADLEY_PREY_alien
+2.project description
+We have partnered with Deadly Prey Gallery to create this collection of unique short run screen printed and embroidered pieces. 
+
+
+Deadly Prey Gallery was founded by Brian Chankin in Chicago, in partnership with his best friend Robert Kofi in Accra, Ghana. Our goal is to preserve, archive and educate people about these amazing paintings from Ghana, while continuing to directly support the artists in Ghana still working in the genre today. We are proudly currently partnered with 10 great artists in Ghana for commissions, but we also sell their current and older paintings for them. Kofi worked in the mobile cinema as a teenager and knows the artists personally for over 20 years now. The Deadly Prey partnership with the artists is now over 13 years and going strong. We work with the great Ghanaian artists Heavy J, Farkira, Salvation, Stoger, Mr. Nana Agyq, C.A. Wisely, Magasco, Nii Bi Ashitey, Bright Obeng and H.K. Mathias. 100% of profits on prints and all other merchandise goes directly to them. 
+
+
+3.collection id
+682463428989
+
+
+5.image path
+images/dpalien/dpalien.jpg
+
+
+4.component id
+<div id='collection-component-1776877726275'></div>
+<script type="text/javascript">
+/*<![CDATA[*/
+(function () {
+  var scriptURL = 'https://sdks.shopifycdn.com/buy-button/latest/buy-button-storefront.min.js';
+  if (window.ShopifyBuy) {
+    if (window.ShopifyBuy.UI) {
+      ShopifyBuyInit();
+    } else {
+      loadScript();
+    }
+  } else {
+    loadScript();
+  }
+  function loadScript() {
+    var script = document.createElement('script');
+    script.async = true;
+    script.src = scriptURL;
+    (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(script);
+    script.onload = ShopifyBuyInit;
+  }
+  function ShopifyBuyInit() {
+    var client = ShopifyBuy.buildClient({
+      domain: 'imprint-works.myshopify.com',
+      storefrontAccessToken: 'dec824592d198225b89ee8ff54f77d2e',
+    });
+    ShopifyBuy.UI.onReady(client).then(function (ui) {
+      ui.createComponent('collection', {
+        id: '682463428989',
+        node: document.getElementById('collection-component-1776877726275'),
+        moneyFormat: '%C2%A3%7B%7Bamount%7D%7D',
+        options: {
+  "product": {
+    "styles": {
+      "product": {
+        "@media (min-width: 601px)": {
+          "max-width": "calc(33.33333% - 30px)",
+          "margin-left": "30px",
+          "margin-bottom": "50px",
+          "width": "calc(33.33333% - 30px)"
+        },
+        "img": {
+          "height": "calc(100% - 15px)",
+          "position": "absolute",
+          "left": "0",
+          "right": "0",
+          "top": "0"
+        },
+        "imgWrapper": {
+          "padding-top": "calc(75% + 15px)",
+          "position": "relative",
+          "height": "0"
+        }
+      },
+      "title": {
+        "color": "#42f114"
+      },
+      "button": {
+        "font-size": "16px",
+        "padding-top": "16px",
+        "padding-bottom": "16px",
+        ":hover": {
+          "background-color": "#3bd912"
+        },
+        "background-color": "#42f114",
+        ":focus": {
+          "background-color": "#3bd912"
+        },
+        "border-radius": "25px",
+        "padding-left": "15px",
+        "padding-right": "15px"
+      },
+      "quantityInput": {
+        "font-size": "16px",
+        "padding-top": "16px",
+        "padding-bottom": "16px"
+      },
+      "price": {
+        "font-size": "16px",
+        "color": "#42f114"
+      },
+      "compareAt": {
+        "font-size": "13.6px",
+        "color": "#42f114"
+      },
+      "unitPrice": {
+        "font-size": "13.6px",
+        "color": "#42f114"
+      }
+    },
+    "buttonDestination": "modal",
+    "contents": {
+      "options": false
+    },
+    "text": {
+      "button": "View product"
+    }
+  },
+  "productSet": {
+    "styles": {
+      "products": {
+        "@media (min-width: 601px)": {
+          "margin-left": "-30px"
+        }
+      }
+    }
+  },
+  "modalProduct": {
+    "contents": {
+      "img": false,
+      "imgWithCarousel": true,
+      "button": false,
+      "buttonWithQuantity": true
+    },
+    "styles": {
+      "product": {
+        "@media (min-width: 601px)": {
+          "max-width": "100%",
+          "margin-left": "0px",
+          "margin-bottom": "0px"
+        }
+      },
+      "button": {
+        "font-size": "16px",
+        "padding-top": "16px",
+        "padding-bottom": "16px",
+        ":hover": {
+          "background-color": "#3bd912"
+        },
+        "background-color": "#42f114",
+        ":focus": {
+          "background-color": "#3bd912"
+        },
+        "border-radius": "25px",
+        "padding-left": "15px",
+        "padding-right": "15px"
+      },
+      "quantityInput": {
+        "font-size": "16px",
+        "padding-top": "16px",
+        "padding-bottom": "16px"
+      },
+      "title": {
+        "font-family": "Helvetica Neue, sans-serif",
+        "font-weight": "bold",
+        "font-size": "27px",
+        "color": "#4c4c4c"
+      },
+      "price": {
+        "font-family": "Helvetica Neue, sans-serif",
+        "font-weight": "normal",
+        "font-size": "15px",
+        "color": "#4c4c4c"
+      },
+      "compareAt": {
+        "font-family": "Helvetica Neue, sans-serif",
+        "font-weight": "normal",
+        "font-size": "12.75px",
+        "color": "#4c4c4c"
+      },
+      "unitPrice": {
+        "font-family": "Helvetica Neue, sans-serif",
+        "font-weight": "normal",
+        "font-size": "12.75px",
+        "color": "#4c4c4c"
+      },
+      "description": {
+        "font-size": "15px"
+      }
+    },
+    "text": {
+      "button": "BUY"
+    }
+  },
+  "option": {},
+  "cart": {
+    "styles": {
+      "button": {
+        "font-size": "16px",
+        "padding-top": "16px",
+        "padding-bottom": "16px",
+        ":hover": {
+          "background-color": "#3bd912"
+        },
+        "background-color": "#42f114",
+        ":focus": {
+          "background-color": "#3bd912"
+        },
+        "border-radius": "25px"
+      }
+    },
+    "text": {
+      "total": "Subtotal",
+      "button": "Checkout"
+    }
+  },
+  "toggle": {
+    "styles": {
+      "toggle": {
+        "background-color": "#42f114",
+        ":hover": {
+          "background-color": "#3bd912"
+        },
+        ":focus": {
+          "background-color": "#3bd912"
+        }
+      },
+      "count": {
+        "font-size": "16px"
+      }
+    }
+  }
+},
+      });
+    });
+  }
+})();
+/*]]>*/
+</script>
+
+
+
+
+1.name
+SPORTS_ILLUSTRATED_book_of_baseball
+2.project description
+Baseball game play instructions and tactical diagrams taken from Sports Illustrated Book Of Baseball -1966. 
+3.collection id
+682435510653
+
+
+5.image path
+images/baseball/baseball.jpg
+
+
+4.component id
+<div id='collection-component-1776874846774'></div>
+<script type="text/javascript">
+/*<![CDATA[*/
+(function () {
+  var scriptURL = 'https://sdks.shopifycdn.com/buy-button/latest/buy-button-storefront.min.js';
+  if (window.ShopifyBuy) {
+    if (window.ShopifyBuy.UI) {
+      ShopifyBuyInit();
+    } else {
+      loadScript();
+    }
+  } else {
+    loadScript();
+  }
+  function loadScript() {
+    var script = document.createElement('script');
+    script.async = true;
+    script.src = scriptURL;
+    (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(script);
+    script.onload = ShopifyBuyInit;
+  }
+  function ShopifyBuyInit() {
+    var client = ShopifyBuy.buildClient({
+      domain: 'imprint-works.myshopify.com',
+      storefrontAccessToken: 'dec824592d198225b89ee8ff54f77d2e',
+    });
+    ShopifyBuy.UI.onReady(client).then(function (ui) {
+      ui.createComponent('collection', {
+        id: '682435510653',
+        node: document.getElementById('collection-component-1776874846774'),
+        moneyFormat: '%C2%A3%7B%7Bamount%7D%7D',
+        options: {
+  "product": {
+    "styles": {
+      "product": {
+        "@media (min-width: 601px)": {
+          "max-width": "calc(33.33333% - 30px)",
+          "margin-left": "30px",
+          "margin-bottom": "50px",
+          "width": "calc(33.33333% - 30px)"
+        },
+        "img": {
+          "height": "calc(100% - 15px)",
+          "position": "absolute",
+          "left": "0",
+          "right": "0",
+          "top": "0"
+        },
+        "imgWrapper": {
+          "padding-top": "calc(75% + 15px)",
+          "position": "relative",
+          "height": "0"
+        }
+      },
+      "title": {
+        "color": "#42f114"
+      },
+      "button": {
+        "font-size": "16px",
+        "padding-top": "16px",
+        "padding-bottom": "16px",
+        ":hover": {
+          "background-color": "#3bd912"
+        },
+        "background-color": "#42f114",
+        ":focus": {
+          "background-color": "#3bd912"
+        },
+        "border-radius": "25px",
+        "padding-left": "15px",
+        "padding-right": "15px"
+      },
+      "quantityInput": {
+        "font-size": "16px",
+        "padding-top": "16px",
+        "padding-bottom": "16px"
+      },
+      "price": {
+        "font-size": "16px",
+        "color": "#42f114"
+      },
+      "compareAt": {
+        "font-size": "13.6px",
+        "color": "#42f114"
+      },
+      "unitPrice": {
+        "font-size": "13.6px",
+        "color": "#42f114"
+      }
+    },
+    "buttonDestination": "modal",
+    "contents": {
+      "options": false
+    },
+    "text": {
+      "button": "View product"
+    }
+  },
+  "productSet": {
+    "styles": {
+      "products": {
+        "@media (min-width: 601px)": {
+          "margin-left": "-30px"
+        }
+      }
+    }
+  },
+  "modalProduct": {
+    "contents": {
+      "img": false,
+      "imgWithCarousel": true,
+      "button": false,
+      "buttonWithQuantity": true
+    },
+    "styles": {
+      "product": {
+        "@media (min-width: 601px)": {
+          "max-width": "100%",
+          "margin-left": "0px",
+          "margin-bottom": "0px"
+        }
+      },
+      "button": {
+        "font-size": "16px",
+        "padding-top": "16px",
+        "padding-bottom": "16px",
+        ":hover": {
+          "background-color": "#3bd912"
+        },
+        "background-color": "#42f114",
+        ":focus": {
+          "background-color": "#3bd912"
+        },
+        "border-radius": "25px",
+        "padding-left": "15px",
+        "padding-right": "15px"
+      },
+      "quantityInput": {
+        "font-size": "16px",
+        "padding-top": "16px",
+        "padding-bottom": "16px"
+      },
+      "title": {
+        "font-family": "Helvetica Neue, sans-serif",
+        "font-weight": "bold",
+        "font-size": "27px",
+        "color": "#4c4c4c"
+      },
+      "price": {
+        "font-family": "Helvetica Neue, sans-serif",
+        "font-weight": "normal",
+        "font-size": "15px",
+        "color": "#4c4c4c"
+      },
+      "compareAt": {
+        "font-family": "Helvetica Neue, sans-serif",
+        "font-weight": "normal",
+        "font-size": "12.75px",
+        "color": "#4c4c4c"
+      },
+      "unitPrice": {
+        "font-family": "Helvetica Neue, sans-serif",
+        "font-weight": "normal",
+        "font-size": "12.75px",
+        "color": "#4c4c4c"
+      },
+      "description": {
+        "font-size": "15px"
+      }
+    },
+    "text": {
+      "button": "BUY"
+    }
+  },
+  "option": {},
+  "cart": {
+    "styles": {
+      "button": {
+        "font-size": "16px",
+        "padding-top": "16px",
+        "padding-bottom": "16px",
+        ":hover": {
+          "background-color": "#3bd912"
+        },
+        "background-color": "#42f114",
+        ":focus": {
+          "background-color": "#3bd912"
+        },
+        "border-radius": "25px"
+      }
+    },
+    "text": {
+      "total": "Subtotal",
+      "button": "Checkout"
+    }
+  },
+  "toggle": {
+    "styles": {
+      "toggle": {
+        "background-color": "#42f114",
+        ":hover": {
+          "background-color": "#3bd912"
+        },
+        ":focus": {
+          "background-color": "#3bd912"
+        }
+      },
+      "count": {
+        "font-size": "16px"
+      }
+    }
+  }
+},
+      });
+    });
+  }
+})();
+/*]]>*/
+</script>
+
+
+
+
+1.name
+BENARD_DIREXT_snakes
+2.project description
+These screen print designs are taken from etching presses from the 18th Century. signed… Benard Direxit, a designation often attributed to the prolific French engraver Robert Bénard (c. 1731 – after 1794) or sometimes Jacques Renaud Benard, represents a significant figure (or collective studio operation) in French engraving during the late 18th and early 19th centuries. Active primarily in Paris, the name became synonymous with high-quality, meticulously detailed copper engravings that served the burgeoning intellectual and scientific pursuits of the Enlightenment era and beyond.
+
+
+3.collection id
+682435248509
+
+
+5.image path
+images/bernard/bernard.jpg
+4.component id
+<div id='collection-component-1776873242458'></div>
+<script type="text/javascript">
+/*<![CDATA[*/
+(function () {
+  var scriptURL = 'https://sdks.shopifycdn.com/buy-button/latest/buy-button-storefront.min.js';
+  if (window.ShopifyBuy) {
+    if (window.ShopifyBuy.UI) {
+      ShopifyBuyInit();
+    } else {
+      loadScript();
+    }
+  } else {
+    loadScript();
+  }
+  function loadScript() {
+    var script = document.createElement('script');
+    script.async = true;
+    script.src = scriptURL;
+    (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(script);
+    script.onload = ShopifyBuyInit;
+  }
+  function ShopifyBuyInit() {
+    var client = ShopifyBuy.buildClient({
+      domain: 'imprint-works.myshopify.com',
+      storefrontAccessToken: 'dec824592d198225b89ee8ff54f77d2e',
+    });
+    ShopifyBuy.UI.onReady(client).then(function (ui) {
+      ui.createComponent('collection', {
+        id: '682435248509',
+        node: document.getElementById('collection-component-1776873242458'),
+        moneyFormat: '%C2%A3%7B%7Bamount%7D%7D',
+        options: {
+  "product": {
+    "styles": {
+      "product": {
+        "@media (min-width: 601px)": {
+          "max-width": "calc(33.33333% - 30px)",
+          "margin-left": "30px",
+          "margin-bottom": "50px",
+          "width": "calc(33.33333% - 30px)"
+        },
+        "img": {
+          "height": "calc(100% - 15px)",
+          "position": "absolute",
+          "left": "0",
+          "right": "0",
+          "top": "0"
+        },
+        "imgWrapper": {
+          "padding-top": "calc(75% + 15px)",
+          "position": "relative",
+          "height": "0"
+        }
+      },
+      "title": {
+        "color": "#42f114"
+      },
+      "button": {
+        "font-size": "16px",
+        "padding-top": "16px",
+        "padding-bottom": "16px",
+        ":hover": {
+          "background-color": "#3bd912"
+        },
+        "background-color": "#42f114",
+        ":focus": {
+          "background-color": "#3bd912"
+        },
+        "border-radius": "25px",
+        "padding-left": "15px",
+        "padding-right": "15px"
+      },
+      "quantityInput": {
+        "font-size": "16px",
+        "padding-top": "16px",
+        "padding-bottom": "16px"
+      },
+      "price": {
+        "font-size": "16px",
+        "color": "#42f114"
+      },
+      "compareAt": {
+        "font-size": "13.6px",
+        "color": "#42f114"
+      },
+      "unitPrice": {
+        "font-size": "13.6px",
+        "color": "#42f114"
+      }
+    },
+    "buttonDestination": "modal",
+    "contents": {
+      "options": false
+    },
+    "text": {
+      "button": "View product"
+    }
+  },
+  "productSet": {
+    "styles": {
+      "products": {
+        "@media (min-width: 601px)": {
+          "margin-left": "-30px"
+        }
+      }
+    }
+  },
+  "modalProduct": {
+    "contents": {
+      "img": false,
+      "imgWithCarousel": true,
+      "button": false,
+      "buttonWithQuantity": true
+    },
+    "styles": {
+      "product": {
+        "@media (min-width: 601px)": {
+          "max-width": "100%",
+          "margin-left": "0px",
+          "margin-bottom": "0px"
+        }
+      },
+      "button": {
+        "font-size": "16px",
+        "padding-top": "16px",
+        "padding-bottom": "16px",
+        ":hover": {
+          "background-color": "#3bd912"
+        },
+        "background-color": "#42f114",
+        ":focus": {
+          "background-color": "#3bd912"
+        },
+        "border-radius": "25px",
+        "padding-left": "15px",
+        "padding-right": "15px"
+      },
+      "quantityInput": {
+        "font-size": "16px",
+        "padding-top": "16px",
+        "padding-bottom": "16px"
+      },
+      "title": {
+        "font-family": "Helvetica Neue, sans-serif",
+        "font-weight": "bold",
+        "font-size": "27px",
+        "color": "#4c4c4c"
+      },
+      "price": {
+        "font-family": "Helvetica Neue, sans-serif",
+        "font-weight": "normal",
+        "font-size": "15px",
+        "color": "#4c4c4c"
+      },
+      "compareAt": {
+        "font-family": "Helvetica Neue, sans-serif",
+        "font-weight": "normal",
+        "font-size": "12.75px",
+        "color": "#4c4c4c"
+      },
+      "unitPrice": {
+        "font-family": "Helvetica Neue, sans-serif",
+        "font-weight": "normal",
+        "font-size": "12.75px",
+        "color": "#4c4c4c"
+      },
+      "description": {
+        "font-size": "15px"
+      }
+    },
+    "text": {
+      "button": "BUY"
+    }
+  },
+  "option": {},
+  "cart": {
+    "styles": {
+      "button": {
+        "font-size": "16px",
+        "padding-top": "16px",
+        "padding-bottom": "16px",
+        ":hover": {
+          "background-color": "#3bd912"
+        },
+        "background-color": "#42f114",
+        ":focus": {
+          "background-color": "#3bd912"
+        },
+        "border-radius": "25px"
+      }
+    },
+    "text": {
+      "total": "Subtotal",
+      "button": "Checkout"
+    }
+  },
+  "toggle": {
+    "styles": {
+      "toggle": {
+        "background-color": "#42f114",
+        ":hover": {
+          "background-color": "#3bd912"
+        },
+        ":focus": {
+          "background-color": "#3bd912"
+        }
+      },
+      "count": {
+        "font-size": "16px"
+      }
+    }
+  }
+},
+      });
+    });
+  }
+})();
+/*]]>*/
+</script>
+
+
+
+
+1.name
+U.Y.U.S_toxic_shock 
+2.project description
+United youth of The United States, not as OI as the artwork makes out. These guys are a Hardcore political band from Houston, Texas. They still play shows in the Houston area. The artworks or these items were all found on one tour advert in the back of MAXIMUMROCKNROLL zine issue 85 from June 1990. 
+
+
+3.collection id
+679984038269
+
+
+5.image path
+images/uyus/uyus.jpg
+4.component id
+<div id='collection-component-1776870756923'></div>
+<script type="text/javascript">
+/*<![CDATA[*/
+(function () {
+  var scriptURL = 'https://sdks.shopifycdn.com/buy-button/latest/buy-button-storefront.min.js';
+  if (window.ShopifyBuy) {
+    if (window.ShopifyBuy.UI) {
+      ShopifyBuyInit();
+    } else {
+      loadScript();
+    }
+  } else {
+    loadScript();
+  }
+  function loadScript() {
+    var script = document.createElement('script');
+    script.async = true;
+    script.src = scriptURL;
+    (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(script);
+    script.onload = ShopifyBuyInit;
+  }
+  function ShopifyBuyInit() {
+    var client = ShopifyBuy.buildClient({
+      domain: 'imprint-works.myshopify.com',
+      storefrontAccessToken: 'dec824592d198225b89ee8ff54f77d2e',
+    });
+    ShopifyBuy.UI.onReady(client).then(function (ui) {
+      ui.createComponent('collection', {
+        id: '679984038269',
+        node: document.getElementById('collection-component-1776870756923'),
+        moneyFormat: '%C2%A3%7B%7Bamount%7D%7D',
+        options: {
+  "product": {
+    "styles": {
+      "product": {
+        "@media (min-width: 601px)": {
+          "max-width": "calc(33.33333% - 30px)",
+          "margin-left": "30px",
+          "margin-bottom": "50px",
+          "width": "calc(33.33333% - 30px)"
+        },
+        "img": {
+          "height": "calc(100% - 15px)",
+          "position": "absolute",
+          "left": "0",
+          "right": "0",
+          "top": "0"
+        },
+        "imgWrapper": {
+          "padding-top": "calc(75% + 15px)",
+          "position": "relative",
+          "height": "0"
+        }
+      },
+      "title": {
+        "color": "#42f114"
+      },
+      "button": {
+        "font-size": "16px",
+        "padding-top": "16px",
+        "padding-bottom": "16px",
+        ":hover": {
+          "background-color": "#3bd912"
+        },
+        "background-color": "#42f114",
+        ":focus": {
+          "background-color": "#3bd912"
+        },
+        "border-radius": "25px",
+        "padding-left": "15px",
+        "padding-right": "15px"
+      },
+      "quantityInput": {
+        "font-size": "16px",
+        "padding-top": "16px",
+        "padding-bottom": "16px"
+      },
+      "price": {
+        "font-size": "16px",
+        "color": "#42f114"
+      },
+      "compareAt": {
+        "font-size": "13.6px",
+        "color": "#42f114"
+      },
+      "unitPrice": {
+        "font-size": "13.6px",
+        "color": "#42f114"
+      }
+    },
+    "buttonDestination": "modal",
+    "contents": {
+      "options": false
+    },
+    "text": {
+      "button": "View product"
+    }
+  },
+  "productSet": {
+    "styles": {
+      "products": {
+        "@media (min-width: 601px)": {
+          "margin-left": "-30px"
+        }
+      }
+    }
+  },
+  "modalProduct": {
+    "contents": {
+      "img": false,
+      "imgWithCarousel": true,
+      "button": false,
+      "buttonWithQuantity": true
+    },
+    "styles": {
+      "product": {
+        "@media (min-width: 601px)": {
+          "max-width": "100%",
+          "margin-left": "0px",
+          "margin-bottom": "0px"
+        }
+      },
+      "button": {
+        "font-size": "16px",
+        "padding-top": "16px",
+        "padding-bottom": "16px",
+        ":hover": {
+          "background-color": "#3bd912"
+        },
+        "background-color": "#42f114",
+        ":focus": {
+          "background-color": "#3bd912"
+        },
+        "border-radius": "25px",
+        "padding-left": "15px",
+        "padding-right": "15px"
+      },
+      "quantityInput": {
+        "font-size": "16px",
+        "padding-top": "16px",
+        "padding-bottom": "16px"
+      },
+      "title": {
+        "font-family": "Helvetica Neue, sans-serif",
+        "font-weight": "bold",
+        "font-size": "27px",
+        "color": "#4c4c4c"
+      },
+      "price": {
+        "font-family": "Helvetica Neue, sans-serif",
+        "font-weight": "normal",
+        "font-size": "15px",
+        "color": "#4c4c4c"
+      },
+      "compareAt": {
+        "font-family": "Helvetica Neue, sans-serif",
+        "font-weight": "normal",
+        "font-size": "12.75px",
+        "color": "#4c4c4c"
+      },
+      "unitPrice": {
+        "font-family": "Helvetica Neue, sans-serif",
+        "font-weight": "normal",
+        "font-size": "12.75px",
+        "color": "#4c4c4c"
+      },
+      "description": {
+        "font-size": "15px"
+      }
+    },
+    "text": {
+      "button": "BUY"
+    }
+  },
+  "option": {},
+  "cart": {
+    "styles": {
+      "button": {
+        "font-size": "16px",
+        "padding-top": "16px",
+        "padding-bottom": "16px",
+        ":hover": {
+          "background-color": "#3bd912"
+        },
+        "background-color": "#42f114",
+        ":focus": {
+          "background-color": "#3bd912"
+        },
+        "border-radius": "25px"
+      }
+    },
+    "text": {
+      "total": "Subtotal",
+      "button": "Checkout"
+    }
+  },
+  "toggle": {
+    "styles": {
+      "toggle": {
+        "background-color": "#42f114",
+        ":hover": {
+          "background-color": "#3bd912"
+        },
+        ":focus": {
+          "background-color": "#3bd912"
+        }
+      },
+      "count": {
+        "font-size": "16px"
+      }
+    }
+  }
+},
+      });
+    });
+  }
+})();
+/*]]>*/
+</script>
+
+
+
+
+1.name
+COFFIN_BREAK_rupture 
+2.project description
+Coffin Break was formed in Seattle in the late-1980s, at the start of the grunge era. The group released its first two full-length albums and a compilation onC/Z Records. Signing to Epitaph Records, they released two further albums in 1991 and 1992 before disbanding in late 1993. Both bassist Rob Skinner and guitarist Peter Litwin wrote songs for the group, and the group's releases show a marked difference between their songwriting styles. Kurt Cobain mentioned the group as one of his favorite bands. The band appeared in the 1996 documentary HYPE!, directed by Doug Pray, with a short clip of a live version of their song Kill The President. Coffin Break reunited in 2007, added guitarist Todd Ohashi in 2019; and are currently playing regional shows and have completed work on a full-length album for vinyl and digital release. 
+powered by wikipedia
+3.collection id
+672266813821
+
+
+5.image path
+images/coffinbreak/coffinbreak.jpg
+4.component id
+<div id='collection-component-1776869581245'></div>
+<script type="text/javascript">
+/*<![CDATA[*/
+(function () {
+  var scriptURL = 'https://sdks.shopifycdn.com/buy-button/latest/buy-button-storefront.min.js';
+  if (window.ShopifyBuy) {
+    if (window.ShopifyBuy.UI) {
+      ShopifyBuyInit();
+    } else {
+      loadScript();
+    }
+  } else {
+    loadScript();
+  }
+  function loadScript() {
+    var script = document.createElement('script');
+    script.async = true;
+    script.src = scriptURL;
+    (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(script);
+    script.onload = ShopifyBuyInit;
+  }
+  function ShopifyBuyInit() {
+    var client = ShopifyBuy.buildClient({
+      domain: 'imprint-works.myshopify.com',
+      storefrontAccessToken: 'dec824592d198225b89ee8ff54f77d2e',
+    });
+    ShopifyBuy.UI.onReady(client).then(function (ui) {
+      ui.createComponent('collection', {
+        id: '672266813821',
+        node: document.getElementById('collection-component-1776869581245'),
+        moneyFormat: '%C2%A3%7B%7Bamount%7D%7D',
+        options: {
+  "product": {
+    "styles": {
+      "product": {
+        "@media (min-width: 601px)": {
+          "max-width": "calc(33.33333% - 30px)",
+          "margin-left": "30px",
+          "margin-bottom": "50px",
+          "width": "calc(33.33333% - 30px)"
+        },
+        "img": {
+          "height": "calc(100% - 15px)",
+          "position": "absolute",
+          "left": "0",
+          "right": "0",
+          "top": "0"
+        },
+        "imgWrapper": {
+          "padding-top": "calc(75% + 15px)",
+          "position": "relative",
+          "height": "0"
+        }
+      },
+      "title": {
+        "color": "#42f114"
+      },
+      "button": {
+        "font-size": "16px",
+        "padding-top": "16px",
+        "padding-bottom": "16px",
+        ":hover": {
+          "background-color": "#3bd912"
+        },
+        "background-color": "#42f114",
+        ":focus": {
+          "background-color": "#3bd912"
+        },
+        "border-radius": "25px",
+        "padding-left": "15px",
+        "padding-right": "15px"
+      },
+      "quantityInput": {
+        "font-size": "16px",
+        "padding-top": "16px",
+        "padding-bottom": "16px"
+      },
+      "price": {
+        "font-size": "16px",
+        "color": "#42f114"
+      },
+      "compareAt": {
+        "font-size": "13.6px",
+        "color": "#42f114"
+      },
+      "unitPrice": {
+        "font-size": "13.6px",
+        "color": "#42f114"
+      }
+    },
+    "buttonDestination": "modal",
+    "contents": {
+      "options": false
+    },
+    "text": {
+      "button": "View product"
+    }
+  },
+  "productSet": {
+    "styles": {
+      "products": {
+        "@media (min-width: 601px)": {
+          "margin-left": "-30px"
+        }
+      }
+    }
+  },
+  "modalProduct": {
+    "contents": {
+      "img": false,
+      "imgWithCarousel": true,
+      "button": false,
+      "buttonWithQuantity": true
+    },
+    "styles": {
+      "product": {
+        "@media (min-width: 601px)": {
+          "max-width": "100%",
+          "margin-left": "0px",
+          "margin-bottom": "0px"
+        }
+      },
+      "button": {
+        "font-size": "16px",
+        "padding-top": "16px",
+        "padding-bottom": "16px",
+        ":hover": {
+          "background-color": "#3bd912"
+        },
+        "background-color": "#42f114",
+        ":focus": {
+          "background-color": "#3bd912"
+        },
+        "border-radius": "25px",
+        "padding-left": "15px",
+        "padding-right": "15px"
+      },
+      "quantityInput": {
+        "font-size": "16px",
+        "padding-top": "16px",
+        "padding-bottom": "16px"
+      },
+      "title": {
+        "font-family": "Helvetica Neue, sans-serif",
+        "font-weight": "bold",
+        "font-size": "27px",
+        "color": "#4c4c4c"
+      },
+      "price": {
+        "font-family": "Helvetica Neue, sans-serif",
+        "font-weight": "normal",
+        "font-size": "15px",
+        "color": "#4c4c4c"
+      },
+      "compareAt": {
+        "font-family": "Helvetica Neue, sans-serif",
+        "font-weight": "normal",
+        "font-size": "12.75px",
+        "color": "#4c4c4c"
+      },
+      "unitPrice": {
+        "font-family": "Helvetica Neue, sans-serif",
+        "font-weight": "normal",
+        "font-size": "12.75px",
+        "color": "#4c4c4c"
+      },
+      "description": {
+        "font-size": "15px"
+      }
+    },
+    "text": {
+      "button": "BUY"
+    }
+  },
+  "option": {},
+  "cart": {
+    "styles": {
+      "button": {
+        "font-size": "16px",
+        "padding-top": "16px",
+        "padding-bottom": "16px",
+        ":hover": {
+          "background-color": "#3bd912"
+        },
+        "background-color": "#42f114",
+        ":focus": {
+          "background-color": "#3bd912"
+        },
+        "border-radius": "25px"
+      }
+    },
+    "text": {
+      "total": "Subtotal",
+      "button": "Checkout"
+    }
+  },
+  "toggle": {
+    "styles": {
+      "toggle": {
+        "background-color": "#42f114",
+        ":hover": {
+          "background-color": "#3bd912"
+        },
+        ":focus": {
+          "background-color": "#3bd912"
+        }
+      },
+      "count": {
+        "font-size": "16px"
+      }
+    }
+  }
+},
+      });
+    });
+  }
+})();
+/*]]>*/
+</script>
+
+
+
+
+1.name
+AMPHETAMINE_REPTILE_RECORDS_cows 
+2.project description
+Cows were a noise rock band from Minneapolis, Minnesota who formed in 1986 and disbanded in 1998. The band’s music mixed punk rock with surreal humour and copious amounts of noise played through distorted amplifiers and trumpet bleats, codifying them as a noise rock band. Throughout their career Cows released nine studio albums, all but one on the Minneapolis-based label Amphetamine Reptile Records. 
+Amphetamine Reptile Records (or AmRep Industries) is a record label founded in 1986 by Tom Hazelmyer in Washington state. The label specializes in noise rock and also released strap it on, the debut album by alternative metal band Helmet which sold more than 40,000 records. According to Hazelmyer, the success of the album was vital to keeping AmRep going throughout the 1990s, as it "helped support the other things that sold less." The label was the subject of the 2015 documentary The Color of Noise 
+powered by wikipedia
+3.collection id
+672266322301
+
+
+5.image path
+images/amcow/amcow.jpg
+4.component id
+<div id='collection-component-1776868250078'></div>
+<script type="text/javascript">
+/*<![CDATA[*/
+(function () {
+  var scriptURL = 'https://sdks.shopifycdn.com/buy-button/latest/buy-button-storefront.min.js';
+  if (window.ShopifyBuy) {
+    if (window.ShopifyBuy.UI) {
+      ShopifyBuyInit();
+    } else {
+      loadScript();
+    }
+  } else {
+    loadScript();
+  }
+  function loadScript() {
+    var script = document.createElement('script');
+    script.async = true;
+    script.src = scriptURL;
+    (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(script);
+    script.onload = ShopifyBuyInit;
+  }
+  function ShopifyBuyInit() {
+    var client = ShopifyBuy.buildClient({
+      domain: 'imprint-works.myshopify.com',
+      storefrontAccessToken: 'dec824592d198225b89ee8ff54f77d2e',
+    });
+    ShopifyBuy.UI.onReady(client).then(function (ui) {
+      ui.createComponent('collection', {
+        id: '672266322301',
+        node: document.getElementById('collection-component-1776868250078'),
+        moneyFormat: '%C2%A3%7B%7Bamount%7D%7D',
+        options: {
+  "product": {
+    "styles": {
+      "product": {
+        "@media (min-width: 601px)": {
+          "max-width": "calc(33.33333% - 30px)",
+          "margin-left": "30px",
+          "margin-bottom": "50px",
+          "width": "calc(33.33333% - 30px)"
+        },
+        "img": {
+          "height": "calc(100% - 15px)",
+          "position": "absolute",
+          "left": "0",
+          "right": "0",
+          "top": "0"
+        },
+        "imgWrapper": {
+          "padding-top": "calc(75% + 15px)",
+          "position": "relative",
+          "height": "0"
+        }
+      },
+      "title": {
+        "color": "#42f114"
+      },
+      "button": {
+        "font-size": "16px",
+        "padding-top": "16px",
+        "padding-bottom": "16px",
+        ":hover": {
+          "background-color": "#3bd912"
+        },
+        "background-color": "#42f114",
+        ":focus": {
+          "background-color": "#3bd912"
+        },
+        "border-radius": "25px",
+        "padding-left": "15px",
+        "padding-right": "15px"
+      },
+      "quantityInput": {
+        "font-size": "16px",
+        "padding-top": "16px",
+        "padding-bottom": "16px"
+      },
+      "price": {
+        "font-size": "16px",
+        "color": "#42f114"
+      },
+      "compareAt": {
+        "font-size": "13.6px",
+        "color": "#42f114"
+      },
+      "unitPrice": {
+        "font-size": "13.6px",
+        "color": "#42f114"
+      }
+    },
+    "buttonDestination": "modal",
+    "contents": {
+      "options": false
+    },
+    "text": {
+      "button": "View product"
+    }
+  },
+  "productSet": {
+    "styles": {
+      "products": {
+        "@media (min-width: 601px)": {
+          "margin-left": "-30px"
+        }
+      }
+    }
+  },
+  "modalProduct": {
+    "contents": {
+      "img": false,
+      "imgWithCarousel": true,
+      "button": false,
+      "buttonWithQuantity": true
+    },
+    "styles": {
+      "product": {
+        "@media (min-width: 601px)": {
+          "max-width": "100%",
+          "margin-left": "0px",
+          "margin-bottom": "0px"
+        }
+      },
+      "button": {
+        "font-size": "16px",
+        "padding-top": "16px",
+        "padding-bottom": "16px",
+        ":hover": {
+          "background-color": "#3bd912"
+        },
+        "background-color": "#42f114",
+        ":focus": {
+          "background-color": "#3bd912"
+        },
+        "border-radius": "25px",
+        "padding-left": "15px",
+        "padding-right": "15px"
+      },
+      "quantityInput": {
+        "font-size": "16px",
+        "padding-top": "16px",
+        "padding-bottom": "16px"
+      },
+      "title": {
+        "font-family": "Helvetica Neue, sans-serif",
+        "font-weight": "bold",
+        "font-size": "27px",
+        "color": "#4c4c4c"
+      },
+      "price": {
+        "font-family": "Helvetica Neue, sans-serif",
+        "font-weight": "normal",
+        "font-size": "15px",
+        "color": "#4c4c4c"
+      },
+      "compareAt": {
+        "font-family": "Helvetica Neue, sans-serif",
+        "font-weight": "normal",
+        "font-size": "12.75px",
+        "color": "#4c4c4c"
+      },
+      "unitPrice": {
+        "font-family": "Helvetica Neue, sans-serif",
+        "font-weight": "normal",
+        "font-size": "12.75px",
+        "color": "#4c4c4c"
+      },
+      "description": {
+        "font-size": "15px"
+      }
+    },
+    "text": {
+      "button": "BUY"
+    }
+  },
+  "option": {},
+  "cart": {
+    "styles": {
+      "button": {
+        "font-size": "16px",
+        "padding-top": "16px",
+        "padding-bottom": "16px",
+        ":hover": {
+          "background-color": "#3bd912"
+        },
+        "background-color": "#42f114",
+        ":focus": {
+          "background-color": "#3bd912"
+        },
+        "border-radius": "25px"
+      }
+    },
+    "text": {
+      "total": "Subtotal",
+      "button": "Checkout"
+    }
+  },
+  "toggle": {
+    "styles": {
+      "toggle": {
+        "background-color": "#42f114",
+        ":hover": {
+          "background-color": "#3bd912"
+        },
+        ":focus": {
+          "background-color": "#3bd912"
+        }
+      },
+      "count": {
+        "font-size": "16px"
+      }
+    }
+  }
+},
+      });
+    });
+  }
+})();
+/*]]>*/
+</script>
+
+
+
+
+1.name
+SUBTERANEAN_minimal_man 
+2.project description
+Minimal Man was formed in San Francisco, California in 1979 by leader Patrick Miller, a visual and sound artist who moved to San Francisco in the late 1970s. The band often changed members, featuring at different times members of bands such as Tuxedomoon , Factrix and others active in the then-thriving San Francisco experimental, post punk and industrial scenes.
+Minimal Man remained active in San Francisco recording on the Subterranean Records label until the mid-1980s, after which Miller relocated to Europe, often working with compatriots Tuxedomoon who had made a similar move previously.
+The Minimal Man output ceased after the 1980s, and Miller returned toLos Angeles, where he worked as a set dresser.
+Miller died at his home in Eagle Rock on December 14, 2003
+powered by wikipedia
+3.collection id
+679985381757
+
+
+5.image path
+images/submin/submin.jpg
+4.component id
+<div id='collection-component-1776866870406'></div>
+<script type="text/javascript">
+/*<![CDATA[*/
+(function () {
+  var scriptURL = 'https://sdks.shopifycdn.com/buy-button/latest/buy-button-storefront.min.js';
+  if (window.ShopifyBuy) {
+    if (window.ShopifyBuy.UI) {
+      ShopifyBuyInit();
+    } else {
+      loadScript();
+    }
+  } else {
+    loadScript();
+  }
+  function loadScript() {
+    var script = document.createElement('script');
+    script.async = true;
+    script.src = scriptURL;
+    (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(script);
+    script.onload = ShopifyBuyInit;
+  }
+  function ShopifyBuyInit() {
+    var client = ShopifyBuy.buildClient({
+      domain: 'imprint-works.myshopify.com',
+      storefrontAccessToken: 'dec824592d198225b89ee8ff54f77d2e',
+    });
+    ShopifyBuy.UI.onReady(client).then(function (ui) {
+      ui.createComponent('collection', {
+        id: '679985381757',
+        node: document.getElementById('collection-component-1776866870406'),
+        moneyFormat: '%C2%A3%7B%7Bamount%7D%7D',
+        options: {
+  "product": {
+    "styles": {
+      "product": {
+        "@media (min-width: 601px)": {
+          "max-width": "calc(33.33333% - 30px)",
+          "margin-left": "30px",
+          "margin-bottom": "50px",
+          "width": "calc(33.33333% - 30px)"
+        },
+        "img": {
+          "height": "calc(100% - 15px)",
+          "position": "absolute",
+          "left": "0",
+          "right": "0",
+          "top": "0"
+        },
+        "imgWrapper": {
+          "padding-top": "calc(75% + 15px)",
+          "position": "relative",
+          "height": "0"
+        }
+      },
+      "title": {
+        "color": "#42f114"
+      },
+      "button": {
+        "font-size": "16px",
+        "padding-top": "16px",
+        "padding-bottom": "16px",
+        ":hover": {
+          "background-color": "#3bd912"
+        },
+        "background-color": "#42f114",
+        ":focus": {
+          "background-color": "#3bd912"
+        },
+        "border-radius": "25px",
+        "padding-left": "15px",
+        "padding-right": "15px"
+      },
+      "quantityInput": {
+        "font-size": "16px",
+        "padding-top": "16px",
+        "padding-bottom": "16px"
+      },
+      "price": {
+        "font-size": "16px",
+        "color": "#42f114"
+      },
+      "compareAt": {
+        "font-size": "13.6px",
+        "color": "#42f114"
+      },
+      "unitPrice": {
+        "font-size": "13.6px",
+        "color": "#42f114"
+      }
+    },
+    "buttonDestination": "modal",
+    "contents": {
+      "options": false
+    },
+    "text": {
+      "button": "View product"
+    }
+  },
+  "productSet": {
+    "styles": {
+      "products": {
+        "@media (min-width: 601px)": {
+          "margin-left": "-30px"
+        }
+      }
+    }
+  },
+  "modalProduct": {
+    "contents": {
+      "img": false,
+      "imgWithCarousel": true,
+      "button": false,
+      "buttonWithQuantity": true
+    },
+    "styles": {
+      "product": {
+        "@media (min-width: 601px)": {
+          "max-width": "100%",
+          "margin-left": "0px",
+          "margin-bottom": "0px"
+        }
+      },
+      "button": {
+        "font-size": "16px",
+        "padding-top": "16px",
+        "padding-bottom": "16px",
+        ":hover": {
+          "background-color": "#3bd912"
+        },
+        "background-color": "#42f114",
+        ":focus": {
+          "background-color": "#3bd912"
+        },
+        "border-radius": "25px",
+        "padding-left": "15px",
+        "padding-right": "15px"
+      },
+      "quantityInput": {
+        "font-size": "16px",
+        "padding-top": "16px",
+        "padding-bottom": "16px"
+      },
+      "title": {
+        "font-family": "Helvetica Neue, sans-serif",
+        "font-weight": "bold",
+        "font-size": "27px",
+        "color": "#4c4c4c"
+      },
+      "price": {
+        "font-family": "Helvetica Neue, sans-serif",
+        "font-weight": "normal",
+        "font-size": "15px",
+        "color": "#4c4c4c"
+      },
+      "compareAt": {
+        "font-family": "Helvetica Neue, sans-serif",
+        "font-weight": "normal",
+        "font-size": "12.75px",
+        "color": "#4c4c4c"
+      },
+      "unitPrice": {
+        "font-family": "Helvetica Neue, sans-serif",
+        "font-weight": "normal",
+        "font-size": "12.75px",
+        "color": "#4c4c4c"
+      },
+      "description": {
+        "font-size": "15px"
+      }
+    },
+    "text": {
+      "button": "BUY"
+    }
+  },
+  "option": {},
+  "cart": {
+    "styles": {
+      "button": {
+        "font-size": "16px",
+        "padding-top": "16px",
+        "padding-bottom": "16px",
+        ":hover": {
+          "background-color": "#3bd912"
+        },
+        "background-color": "#42f114",
+        ":focus": {
+          "background-color": "#3bd912"
+        },
+        "border-radius": "25px"
+      }
+    },
+    "text": {
+      "total": "Subtotal",
+      "button": "Checkout"
+    }
+  },
+  "toggle": {
+    "styles": {
+      "toggle": {
+        "background-color": "#42f114",
+        ":hover": {
+          "background-color": "#3bd912"
+        },
+        ":focus": {
+          "background-color": "#3bd912"
+        }
+      },
+      "count": {
+        "font-size": "16px"
+      }
+    }
+  }
+},
+      });
+    });
+  }
+})();
+/*]]>*/
+</script>
+
+
+
+
+1.name
+CYCLOPEAN_MUSIC_slaughtered_grace 
+2.project description
+Slaughtered Grace was a short-lived American thrash metal band from Lodi, New Jersey, active between 1987 and 1990. They are best known for releasing a 1990 EP, titled Call this Planet on Cyclopean Music. Cyclopean Music released the early works of the Misfits 
+powered by wikipedia
+3.collection id
+679985152381
+
+
+5.image path
+images/cyclopeanmusic/cyclopeanmusic.jpg
+4.component id
+<div id='collection-component-1776865524683'></div>
+<script type="text/javascript">
+/*<![CDATA[*/
+(function () {
+  var scriptURL = 'https://sdks.shopifycdn.com/buy-button/latest/buy-button-storefront.min.js';
+  if (window.ShopifyBuy) {
+    if (window.ShopifyBuy.UI) {
+      ShopifyBuyInit();
+    } else {
+      loadScript();
+    }
+  } else {
+    loadScript();
+  }
+  function loadScript() {
+    var script = document.createElement('script');
+    script.async = true;
+    script.src = scriptURL;
+    (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(script);
+    script.onload = ShopifyBuyInit;
+  }
+  function ShopifyBuyInit() {
+    var client = ShopifyBuy.buildClient({
+      domain: 'imprint-works.myshopify.com',
+      storefrontAccessToken: 'dec824592d198225b89ee8ff54f77d2e',
+    });
+    ShopifyBuy.UI.onReady(client).then(function (ui) {
+      ui.createComponent('collection', {
+        id: '679985152381',
+        node: document.getElementById('collection-component-1776865524683'),
+        moneyFormat: '%C2%A3%7B%7Bamount%7D%7D',
+        options: {
+  "product": {
+    "styles": {
+      "product": {
+        "@media (min-width: 601px)": {
+          "max-width": "calc(33.33333% - 30px)",
+          "margin-left": "30px",
+          "margin-bottom": "50px",
+          "width": "calc(33.33333% - 30px)"
+        },
+        "img": {
+          "height": "calc(100% - 15px)",
+          "position": "absolute",
+          "left": "0",
+          "right": "0",
+          "top": "0"
+        },
+        "imgWrapper": {
+          "padding-top": "calc(75% + 15px)",
+          "position": "relative",
+          "height": "0"
+        }
+      },
+      "title": {
+        "color": "#42f114"
+      },
+      "button": {
+        "font-size": "16px",
+        "padding-top": "16px",
+        "padding-bottom": "16px",
+        ":hover": {
+          "background-color": "#3bd912"
+        },
+        "background-color": "#42f114",
+        ":focus": {
+          "background-color": "#3bd912"
+        },
+        "border-radius": "25px",
+        "padding-left": "15px",
+        "padding-right": "15px"
+      },
+      "quantityInput": {
+        "font-size": "16px",
+        "padding-top": "16px",
+        "padding-bottom": "16px"
+      },
+      "price": {
+        "font-size": "16px",
+        "color": "#42f114"
+      },
+      "compareAt": {
+        "font-size": "13.6px",
+        "color": "#42f114"
+      },
+      "unitPrice": {
+        "font-size": "13.6px",
+        "color": "#42f114"
+      }
+    },
+    "buttonDestination": "modal",
+    "contents": {
+      "options": false
+    },
+    "text": {
+      "button": "View product"
+    }
+  },
+  "productSet": {
+    "styles": {
+      "products": {
+        "@media (min-width: 601px)": {
+          "margin-left": "-30px"
+        }
+      }
+    }
+  },
+  "modalProduct": {
+    "contents": {
+      "img": false,
+      "imgWithCarousel": true,
+      "button": false,
+      "buttonWithQuantity": true
+    },
+    "styles": {
+      "product": {
+        "@media (min-width: 601px)": {
+          "max-width": "100%",
+          "margin-left": "0px",
+          "margin-bottom": "0px"
+        }
+      },
+      "button": {
+        "font-size": "16px",
+        "padding-top": "16px",
+        "padding-bottom": "16px",
+        ":hover": {
+          "background-color": "#3bd912"
+        },
+        "background-color": "#42f114",
+        ":focus": {
+          "background-color": "#3bd912"
+        },
+        "border-radius": "25px",
+        "padding-left": "15px",
+        "padding-right": "15px"
+      },
+      "quantityInput": {
+        "font-size": "16px",
+        "padding-top": "16px",
+        "padding-bottom": "16px"
+      },
+      "title": {
+        "font-family": "Helvetica Neue, sans-serif",
+        "font-weight": "bold",
+        "font-size": "27px",
+        "color": "#4c4c4c"
+      },
+      "price": {
+        "font-family": "Helvetica Neue, sans-serif",
+        "font-weight": "normal",
+        "font-size": "15px",
+        "color": "#4c4c4c"
+      },
+      "compareAt": {
+        "font-family": "Helvetica Neue, sans-serif",
+        "font-weight": "normal",
+        "font-size": "12.75px",
+        "color": "#4c4c4c"
+      },
+      "unitPrice": {
+        "font-family": "Helvetica Neue, sans-serif",
+        "font-weight": "normal",
+        "font-size": "12.75px",
+        "color": "#4c4c4c"
+      },
+      "description": {
+        "font-size": "15px"
+      }
+    },
+    "text": {
+      "button": "BUY"
+    }
+  },
+  "option": {},
+  "cart": {
+    "styles": {
+      "button": {
+        "font-size": "16px",
+        "padding-top": "16px",
+        "padding-bottom": "16px",
+        ":hover": {
+          "background-color": "#3bd912"
+        },
+        "background-color": "#42f114",
+        ":focus": {
+          "background-color": "#3bd912"
+        },
+        "border-radius": "25px"
+      }
+    },
+    "text": {
+      "total": "Subtotal",
+      "button": "Checkout"
+    }
+  },
+  "toggle": {
+    "styles": {
+      "toggle": {
+        "background-color": "#42f114",
+        ":hover": {
+          "background-color": "#3bd912"
+        },
+        ":focus": {
+          "background-color": "#3bd912"
+        }
+      },
+      "count": {
+        "font-size": "16px"
+      }
+    }
+  }
+},
+      });
+    });
+  }
+})();
+/*]]>*/
+</script>
+
+
+
+
+1.name
+CRUCIAL_RESPONSE_RECORDS_hardcore 
+2.project description
+Crucial Response Records is a German independent record label that primarily releases straight edge hardcore records. Established in 1989 by Peter Hoeren 
+These graphic elements were found in the pages of MAXIMUMROCKNROLL zine issue 85 from June 1990.
+powered by wikipedia
+3.collection id
+672266781053
+
+
+5.image path
+images/crucialresponse/crucialrespone.jpg
+4.component id
+<div id='collection-component-1776862196525'></div>
+<script type="text/javascript">
+/*<![CDATA[*/
+(function () {
+  var scriptURL = 'https://sdks.shopifycdn.com/buy-button/latest/buy-button-storefront.min.js';
+  if (window.ShopifyBuy) {
+    if (window.ShopifyBuy.UI) {
+      ShopifyBuyInit();
+    } else {
+      loadScript();
+    }
+  } else {
+    loadScript();
+  }
+  function loadScript() {
+    var script = document.createElement('script');
+    script.async = true;
+    script.src = scriptURL;
+    (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(script);
+    script.onload = ShopifyBuyInit;
+  }
+  function ShopifyBuyInit() {
+    var client = ShopifyBuy.buildClient({
+      domain: 'imprint-works.myshopify.com',
+      storefrontAccessToken: 'dec824592d198225b89ee8ff54f77d2e',
+    });
+    ShopifyBuy.UI.onReady(client).then(function (ui) {
+      ui.createComponent('collection', {
+        id: '679984693629',
+        node: document.getElementById('collection-component-1776862196525'),
+        moneyFormat: '%C2%A3%7B%7Bamount%7D%7D',
+        options: {
+  "product": {
+    "styles": {
+      "product": {
+        "@media (min-width: 601px)": {
+          "max-width": "calc(33.33333% - 30px)",
+          "margin-left": "30px",
+          "margin-bottom": "50px",
+          "width": "calc(33.33333% - 30px)"
+        },
+        "img": {
+          "height": "calc(100% - 15px)",
+          "position": "absolute",
+          "left": "0",
+          "right": "0",
+          "top": "0"
+        },
+        "imgWrapper": {
+          "padding-top": "calc(75% + 15px)",
+          "position": "relative",
+          "height": "0"
+        }
+      },
+      "title": {
+        "color": "#42f114"
+      },
+      "button": {
+        "font-size": "16px",
+        "padding-top": "16px",
+        "padding-bottom": "16px",
+        ":hover": {
+          "background-color": "#3bd912"
+        },
+        "background-color": "#42f114",
+        ":focus": {
+          "background-color": "#3bd912"
+        },
+        "border-radius": "25px",
+        "padding-left": "15px",
+        "padding-right": "15px"
+      },
+      "quantityInput": {
+        "font-size": "16px",
+        "padding-top": "16px",
+        "padding-bottom": "16px"
+      },
+      "price": {
+        "font-size": "16px",
+        "color": "#42f114"
+      },
+      "compareAt": {
+        "font-size": "13.6px",
+        "color": "#42f114"
+      },
+      "unitPrice": {
+        "font-size": "13.6px",
+        "color": "#42f114"
+      }
+    },
+    "buttonDestination": "modal",
+    "contents": {
+      "options": false
+    },
+    "text": {
+      "button": "View product"
+    }
+  },
+  "productSet": {
+    "styles": {
+      "products": {
+        "@media (min-width: 601px)": {
+          "margin-left": "-30px"
+        }
+      }
+    }
+  },
+  "modalProduct": {
+    "contents": {
+      "img": false,
+      "imgWithCarousel": true,
+      "button": false,
+      "buttonWithQuantity": true
+    },
+    "styles": {
+      "product": {
+        "@media (min-width: 601px)": {
+          "max-width": "100%",
+          "margin-left": "0px",
+          "margin-bottom": "0px"
+        }
+      },
+      "button": {
+        "font-size": "16px",
+        "padding-top": "16px",
+        "padding-bottom": "16px",
+        ":hover": {
+          "background-color": "#3bd912"
+        },
+        "background-color": "#42f114",
+        ":focus": {
+          "background-color": "#3bd912"
+        },
+        "border-radius": "25px",
+        "padding-left": "15px",
+        "padding-right": "15px"
+      },
+      "quantityInput": {
+        "font-size": "16px",
+        "padding-top": "16px",
+        "padding-bottom": "16px"
+      },
+      "title": {
+        "font-family": "Helvetica Neue, sans-serif",
+        "font-weight": "bold",
+        "font-size": "27px",
+        "color": "#4c4c4c"
+      },
+      "price": {
+        "font-family": "Helvetica Neue, sans-serif",
+        "font-weight": "normal",
+        "font-size": "15px",
+        "color": "#4c4c4c"
+      },
+      "compareAt": {
+        "font-family": "Helvetica Neue, sans-serif",
+        "font-weight": "normal",
+        "font-size": "12.75px",
+        "color": "#4c4c4c"
+      },
+      "unitPrice": {
+        "font-family": "Helvetica Neue, sans-serif",
+        "font-weight": "normal",
+        "font-size": "12.75px",
+        "color": "#4c4c4c"
+      },
+      "description": {
+        "font-size": "15px"
+      }
+    },
+    "text": {
+      "button": "BUY"
+    }
+  },
+  "option": {},
+  "cart": {
+    "styles": {
+      "button": {
+        "font-size": "16px",
+        "padding-top": "16px",
+        "padding-bottom": "16px",
+        ":hover": {
+          "background-color": "#3bd912"
+        },
+        "background-color": "#42f114",
+        ":focus": {
+          "background-color": "#3bd912"
+        },
+        "border-radius": "25px"
+      }
+    },
+    "text": {
+      "total": "Subtotal",
+      "button": "Checkout"
+    }
+  },
+  "toggle": {
+    "styles": {
+      "toggle": {
+        "background-color": "#42f114",
+        ":hover": {
+          "background-color": "#3bd912"
+        },
+        ":focus": {
+          "background-color": "#3bd912"
+        }
+      },
+      "count": {
+        "font-size": "16px"
+      }
+    }
+  }
+},
+      });
+    });
+  }
+})();
+/*]]>*/
+</script>
+
+
+
+
+
+
+1.name
+INNER_CITY_UNIT_punkadelic 
+2.project description
+Inner City Unit were a London-based popular music group active from 1979 through to 1985, their music style encompassing  psychedelia and punk rock. They recorded four studio albums, one studio EPand one compilation album of previously unreleased material.
+The group debuted at a gig in Liverpool, then appeared at the 1979 Glastonbury festival and at the first Futurama (The World's First Science Fiction Music Festival) on 9 September in Leeds.
+powered by wikipedia
+3.collection id
+666948600189
+
+
+5.image path
+images/innercity/innercity.jpg
+4.component id
+<div id='collection-component-1776844142217'></div>
+<script type="text/javascript">
+/*<![CDATA[*/
+(function () {
+  var scriptURL = 'https://sdks.shopifycdn.com/buy-button/latest/buy-button-storefront.min.js';
+  if (window.ShopifyBuy) {
+    if (window.ShopifyBuy.UI) {
+      ShopifyBuyInit();
+    } else {
+      loadScript();
+    }
+  } else {
+    loadScript();
+  }
+  function loadScript() {
+    var script = document.createElement('script');
+    script.async = true;
+    script.src = scriptURL;
+    (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(script);
+    script.onload = ShopifyBuyInit;
+  }
+  function ShopifyBuyInit() {
+    var client = ShopifyBuy.buildClient({
+      domain: 'imprint-works.myshopify.com',
+      storefrontAccessToken: 'dec824592d198225b89ee8ff54f77d2e',
+    });
+    ShopifyBuy.UI.onReady(client).then(function (ui) {
+      ui.createComponent('collection', {
+        id: '666948600189',
+        node: document.getElementById('collection-component-1776844142217'),
+        moneyFormat: '%C2%A3%7B%7Bamount%7D%7D',
+        options: {
+  "product": {
+    "styles": {
+      "product": {
+        "@media (min-width: 601px)": {
+          "max-width": "calc(33.33333% - 30px)",
+          "margin-left": "30px",
+          "margin-bottom": "50px",
+          "width": "calc(33.33333% - 30px)"
+        },
+        "img": {
+          "height": "calc(100% - 15px)",
+          "position": "absolute",
+          "left": "0",
+          "right": "0",
+          "top": "0"
+        },
+        "imgWrapper": {
+          "padding-top": "calc(75% + 15px)",
+          "position": "relative",
+          "height": "0"
+        }
+      },
+      "title": {
+        "color": "#42f114"
+      },
+      "button": {
+        "font-size": "16px",
+        "padding-top": "16px",
+        "padding-bottom": "16px",
+        ":hover": {
+          "background-color": "#3bd912"
+        },
+        "background-color": "#42f114",
+        ":focus": {
+          "background-color": "#3bd912"
+        },
+        "border-radius": "25px",
+        "padding-left": "15px",
+        "padding-right": "15px"
+      },
+      "quantityInput": {
+        "font-size": "16px",
+        "padding-top": "16px",
+        "padding-bottom": "16px"
+      },
+      "price": {
+        "font-size": "16px",
+        "color": "#42f114"
+      },
+      "compareAt": {
+        "font-size": "13.6px",
+        "color": "#42f114"
+      },
+      "unitPrice": {
+        "font-size": "13.6px",
+        "color": "#42f114"
+      }
+    },
+    "buttonDestination": "modal",
+    "contents": {
+      "options": false
+    },
+    "text": {
+      "button": "View product"
+    }
+  },
+  "productSet": {
+    "styles": {
+      "products": {
+        "@media (min-width: 601px)": {
+          "margin-left": "-30px"
+        }
+      }
+    }
+  },
+  "modalProduct": {
+    "contents": {
+      "img": false,
+      "imgWithCarousel": true,
+      "button": false,
+      "buttonWithQuantity": true
+    },
+    "styles": {
+      "product": {
+        "@media (min-width: 601px)": {
+          "max-width": "100%",
+          "margin-left": "0px",
+          "margin-bottom": "0px"
+        }
+      },
+      "button": {
+        "font-size": "16px",
+        "padding-top": "16px",
+        "padding-bottom": "16px",
+        ":hover": {
+          "background-color": "#3bd912"
+        },
+        "background-color": "#42f114",
+        ":focus": {
+          "background-color": "#3bd912"
+        },
+        "border-radius": "25px",
+        "padding-left": "15px",
+        "padding-right": "15px"
+      },
+      "quantityInput": {
+        "font-size": "16px",
+        "padding-top": "16px",
+        "padding-bottom": "16px"
+      },
+      "title": {
+        "font-family": "Helvetica Neue, sans-serif",
+        "font-weight": "bold",
+        "font-size": "27px",
+        "color": "#4c4c4c"
+      },
+      "price": {
+        "font-family": "Helvetica Neue, sans-serif",
+        "font-weight": "normal",
+        "font-size": "15px",
+        "color": "#4c4c4c"
+      },
+      "compareAt": {
+        "font-family": "Helvetica Neue, sans-serif",
+        "font-weight": "normal",
+        "font-size": "12.75px",
+        "color": "#4c4c4c"
+      },
+      "unitPrice": {
+        "font-family": "Helvetica Neue, sans-serif",
+        "font-weight": "normal",
+        "font-size": "12.75px",
+        "color": "#4c4c4c"
+      },
+      "description": {
+        "font-size": "15px"
+      }
+    },
+    "text": {
+      "button": "BUY"
+    }
+  },
+  "option": {},
+  "cart": {
+    "styles": {
+      "button": {
+        "font-size": "16px",
+        "padding-top": "16px",
+        "padding-bottom": "16px",
+        ":hover": {
+          "background-color": "#3bd912"
+        },
+        "background-color": "#42f114",
+        ":focus": {
+          "background-color": "#3bd912"
+        },
+        "border-radius": "25px"
+      }
+    },
+    "text": {
+      "total": "Subtotal",
+      "button": "Checkout"
+    }
+  },
+  "toggle": {
+    "styles": {
+      "toggle": {
+        "background-color": "#42f114",
+        ":hover": {
+          "background-color": "#3bd912"
+        },
+        ":focus": {
+          "background-color": "#3bd912"
+        }
+      },
+      "count": {
+        "font-size": "16px"
+      }
+    }
+  }
+},
+      });
+    });
+  }
+})();
+/*]]>*/
+</script>
+
+
+1.name
+FUGAZI_7_songs 
+2.project description
+Fugazi, also known as the EP 7 Songs, is the debut release by the American post hardcore band Fugazi. As with subsequent release Margin Walker, Guy Picciotto did not contribute guitar to this record; all guitar was performed by Ian Mackaye. It was originally recorded in June 1988 and released in November 1988 on vinyl and again in 1989 on the compilation release 13 Songs along with the following EP Margin Walker. The photo used for the album cover was taken on June 30, 1988 at Maxwell's in Hoboken, New Jersey. 
+powered by wikipedia
+3.collection id
+672266781053
+
+
+5.image path
+images/fugazi/fugazi.jpg
+4.component id
+<div id='collection-component-1776860161182'></div>
+<script type="text/javascript">
+/*<![CDATA[*/
+(function () {
+  var scriptURL = 'https://sdks.shopifycdn.com/buy-button/latest/buy-button-storefront.min.js';
+  if (window.ShopifyBuy) {
+    if (window.ShopifyBuy.UI) {
+      ShopifyBuyInit();
+    } else {
+      loadScript();
+    }
+  } else {
+    loadScript();
+  }
+  function loadScript() {
+    var script = document.createElement('script');
+    script.async = true;
+    script.src = scriptURL;
+    (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(script);
+    script.onload = ShopifyBuyInit;
+  }
+  function ShopifyBuyInit() {
+    var client = ShopifyBuy.buildClient({
+      domain: 'imprint-works.myshopify.com',
+      storefrontAccessToken: 'dec824592d198225b89ee8ff54f77d2e',
+    });
+    ShopifyBuy.UI.onReady(client).then(function (ui) {
+      ui.createComponent('collection', {
+        id: '672266781053',
+        node: document.getElementById('collection-component-1776860161182'),
+        moneyFormat: '%C2%A3%7B%7Bamount%7D%7D',
+        options: {
+  "product": {
+    "styles": {
+      "product": {
+        "@media (min-width: 601px)": {
+          "max-width": "calc(33.33333% - 30px)",
+          "margin-left": "30px",
+          "margin-bottom": "50px",
+          "width": "calc(33.33333% - 30px)"
+        },
+        "img": {
+          "height": "calc(100% - 15px)",
+          "position": "absolute",
+          "left": "0",
+          "right": "0",
+          "top": "0"
+        },
+        "imgWrapper": {
+          "padding-top": "calc(75% + 15px)",
+          "position": "relative",
+          "height": "0"
+        }
+      },
+      "title": {
+        "color": "#42f114"
+      },
+      "button": {
+        "font-size": "16px",
+        "padding-top": "16px",
+        "padding-bottom": "16px",
+        ":hover": {
+          "background-color": "#3bd912"
+        },
+        "background-color": "#42f114",
+        ":focus": {
+          "background-color": "#3bd912"
+        },
+        "border-radius": "25px",
+        "padding-left": "15px",
+        "padding-right": "15px"
+      },
+      "quantityInput": {
+        "font-size": "16px",
+        "padding-top": "16px",
+        "padding-bottom": "16px"
+      },
+      "price": {
+        "font-size": "16px",
+        "color": "#42f114"
+      },
+      "compareAt": {
+        "font-size": "13.6px",
+        "color": "#42f114"
+      },
+      "unitPrice": {
+        "font-size": "13.6px",
+        "color": "#42f114"
+      }
+    },
+    "buttonDestination": "modal",
+    "contents": {
+      "options": false
+    },
+    "text": {
+      "button": "View product"
+    }
+  },
+  "productSet": {
+    "styles": {
+      "products": {
+        "@media (min-width: 601px)": {
+          "margin-left": "-30px"
+        }
+      }
+    }
+  },
+  "modalProduct": {
+    "contents": {
+      "img": false,
+      "imgWithCarousel": true,
+      "button": false,
+      "buttonWithQuantity": true
+    },
+    "styles": {
+      "product": {
+        "@media (min-width: 601px)": {
+          "max-width": "100%",
+          "margin-left": "0px",
+          "margin-bottom": "0px"
+        }
+      },
+      "button": {
+        "font-size": "16px",
+        "padding-top": "16px",
+        "padding-bottom": "16px",
+        ":hover": {
+          "background-color": "#3bd912"
+        },
+        "background-color": "#42f114",
+        ":focus": {
+          "background-color": "#3bd912"
+        },
+        "border-radius": "25px",
+        "padding-left": "15px",
+        "padding-right": "15px"
+      },
+      "quantityInput": {
+        "font-size": "16px",
+        "padding-top": "16px",
+        "padding-bottom": "16px"
+      },
+      "title": {
+        "font-family": "Helvetica Neue, sans-serif",
+        "font-weight": "bold",
+        "font-size": "27px",
+        "color": "#4c4c4c"
+      },
+      "price": {
+        "font-family": "Helvetica Neue, sans-serif",
+        "font-weight": "normal",
+        "font-size": "15px",
+        "color": "#4c4c4c"
+      },
+      "compareAt": {
+        "font-family": "Helvetica Neue, sans-serif",
+        "font-weight": "normal",
+        "font-size": "12.75px",
+        "color": "#4c4c4c"
+      },
+      "unitPrice": {
+        "font-family": "Helvetica Neue, sans-serif",
+        "font-weight": "normal",
+        "font-size": "12.75px",
+        "color": "#4c4c4c"
+      },
+      "description": {
+        "font-size": "15px"
+      }
+    },
+    "text": {
+      "button": "BUY"
+    }
+  },
+  "option": {},
+  "cart": {
+    "styles": {
+      "button": {
+        "font-size": "16px",
+        "padding-top": "16px",
+        "padding-bottom": "16px",
+        ":hover": {
+          "background-color": "#3bd912"
+        },
+        "background-color": "#42f114",
+        ":focus": {
+          "background-color": "#3bd912"
+        },
+        "border-radius": "25px"
+      }
+    },
+    "text": {
+      "total": "Subtotal",
+      "button": "Checkout"
+    }
+  },
+  "toggle": {
+    "styles": {
+      "toggle": {
+        "background-color": "#42f114",
+        ":hover": {
+          "background-color": "#3bd912"
+        },
+        ":focus": {
+          "background-color": "#3bd912"
+        }
+      },
+      "count": {
+        "font-size": "16px"
+      }
+    }
+  }
+},
+      });
+    });
+  }
+})();
+/*]]>*/
+</script>
